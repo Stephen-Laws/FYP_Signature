@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>15.0</VCProjectVersion>
+    <ProjectGuid>{A41A4E9B-0953-4BD3-B6A4-ABD808E6F853}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>FYPtest</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0.16299.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>C:\Users\Stephen\Documents\FYP\eigen;C:\Users\Stephen\Desktop\mathgl-2.4.2</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>C:\Users\Stephen\Documents\FYP\FYP_test\FYP_test;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>EposCmd.lib</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>C:\Users\sl6114\Downloads\EPOS-Windows-DLL-En\Microsoft Visual C++\Definition Files;C:\Users\sl6114\Documents\Scripts\Eigen-Clone;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>C:\Users\sl6114\Downloads\EPOS-Windows-DLL-En\Microsoft Visual C++\Definition Files\EposCmd64.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClInclude Include="Definitions.h" />
+    <ClInclude Include="glog\stl_logging.h" />
+    <ClInclude Include="kinematics.h" />
+    <ClInclude Include="mathgl-2.4.2\include\mgl2\abstract.h" />
+    <ClInclude Include="mathgl-2.4.2\include\mgl2\addon.h" />
+    <ClInclude Include="mathgl-2.4.2\include\mgl2\base.h" />
+    <ClInclude Include="mathgl-2.4.2\include\mgl2\base_cf.h" />
+    <ClInclude Include="mathgl-2.4.2\include\mgl2\canvas.h" />
+    <ClInclude Include="mathgl-2.4.2\include\mgl2\canvas_cf.h" />
+    <ClInclude Include="mathgl-2.4.2\include\mgl2\canvas_wnd.h" />
+    <ClInclude Include="mathgl-2.4.2\include\mgl2\cont.h" />
+    <ClInclude Include="mathgl-2.4.2\include\mgl2\data.h" />
+    <ClInclude Include="mathgl-2.4.2\include\mgl2\datac.h" />
+    <ClInclude Include="mathgl-2.4.2\include\mgl2\datac_cf.h" />
+    <ClInclude Include="mathgl-2.4.2\include\mgl2\data_cf.h" />
+    <ClInclude Include="mathgl-2.4.2\include\mgl2\define.h" />
+    <ClInclude Include="mathgl-2.4.2\include\mgl2\dllexport.h" />
+    <ClInclude Include="mathgl-2.4.2\include\mgl2\eval.h" />
+    <ClInclude Include="mathgl-2.4.2\include\mgl2\evalc.h" />
+    <ClInclude Include="mathgl-2.4.2\include\mgl2\fit.h" />
+    <ClInclude Include="mathgl-2.4.2\include\mgl2\fltk.h" />
+    <ClInclude Include="mathgl-2.4.2\include\mgl2\Fl_MathGL.h" />
+    <ClInclude Include="mathgl-2.4.2\include\mgl2\font.h" />
+    <ClInclude Include="mathgl-2.4.2\include\mgl2\glut.h" />
+    <ClInclude Include="mathgl-2.4.2\include\mgl2\mgl.h" />
+    <ClInclude Include="mathgl-2.4.2\include\mgl2\mgl_cf.h" />
+    <ClInclude Include="mathgl-2.4.2\include\mgl2\mpi.h" />
+    <ClInclude Include="mathgl-2.4.2\include\mgl2\opengl.h" />
+    <ClInclude Include="mathgl-2.4.2\include\mgl2\other.h" />
+    <ClInclude Include="mathgl-2.4.2\include\mgl2\parser.h" />
+    <ClInclude Include="mathgl-2.4.2\include\mgl2\pde.h" />
+    <ClInclude Include="mathgl-2.4.2\include\mgl2\plot.h" />
+    <ClInclude Include="mathgl-2.4.2\include\mgl2\prim.h" />
+    <ClInclude Include="mathgl-2.4.2\include\mgl2\qmathgl.h" />
+    <ClInclude Include="mathgl-2.4.2\include\mgl2\qt.h" />
+    <ClInclude Include="mathgl-2.4.2\include\mgl2\surf.h" />
+    <ClInclude Include="mathgl-2.4.2\include\mgl2\thread.h" />
+    <ClInclude Include="mathgl-2.4.2\include\mgl2\type.h" />
+    <ClInclude Include="mathgl-2.4.2\include\mgl2\vect.h" />
+    <ClInclude Include="mathgl-2.4.2\include\mgl2\volume.h" />
+    <ClInclude Include="mathgl-2.4.2\include\mgl2\window.h" />
+    <ClInclude Include="mathgl-2.4.2\include\mgl2\wnd.h" />
+    <ClInclude Include="mathgl-2.4.2\include\mgl2\wx.h" />
+    <ClInclude Include="maxonMotor.h" />
+    <ClInclude Include="resource.h" />
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="stringEditor.h" />
+    <ClInclude Include="targetver.h" />
+    <ClInclude Include="testingFuncs.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="FYP_test.cpp" />
+    <ClCompile Include="maxonMotor.cpp" />
+    <ClCompile Include="stdafx.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Create</PrecompiledHeader>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="FYP_test.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="EposCmd64.dll" />
+    <None Include="mathgl-2.4.2\bin\libmgl.dll" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

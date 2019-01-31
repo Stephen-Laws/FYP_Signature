@@ -1,0 +1,12 @@
+﻿  FYP_test.cpp
+c:\users\sl6114\source\repos\fyp_test\fyp_test\kinematics.h(58): warning C4244: 'initializing': conversion from 'Eigen::Index' to 'int', possible loss of data
+c:\users\sl6114\source\repos\fyp_test\fyp_test\kinematics.h(59): warning C4244: 'initializing': conversion from 'Eigen::Index' to 'int', possible loss of data
+c:\users\sl6114\source\repos\fyp_test\fyp_test\kinematics.h(182): warning C4244: 'initializing': conversion from 'Eigen::Index' to 'int', possible loss of data
+c:\users\sl6114\source\repos\fyp_test\fyp_test\kinematics.h(230): warning C4244: 'initializing': conversion from 'Eigen::Index' to 'int', possible loss of data
+c:\users\sl6114\source\repos\fyp_test\fyp_test\kinematics.h(244): warning C4244: '=': conversion from 'Eigen::Index' to 'int', possible loss of data
+c:\users\sl6114\source\repos\fyp_test\fyp_test\kinematics.h(265): warning C4244: 'initializing': conversion from 'Eigen::Index' to 'int', possible loss of data
+c:\users\sl6114\source\repos\fyp_test\fyp_test\kinematics.h(266): warning C4244: 'initializing': conversion from 'Eigen::Index' to 'int', possible loss of data
+c:\users\sl6114\source\repos\fyp_test\fyp_test\stringeditor.h(325): warning C4244: 'initializing': conversion from 'Eigen::Index' to 'int', possible loss of data
+c:\users\sl6114\source\repos\fyp_test\fyp_test\testingfuncs.h(48): warning C4244: '=': conversion from 'double' to 'long', possible loss of data
+c:\users\sl6114\source\repos\fyp_test\fyp_test\testingfuncs.h(132): warning C4244: 'initializing': conversion from 'Eigen::Index' to 'int', possible loss of data
+  FYP_test.vcxproj -> C:\Users\sl6114\source\repos\FYP_test\x64\Debug\FYP_test.exe

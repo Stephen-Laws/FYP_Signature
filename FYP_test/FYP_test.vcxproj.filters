@@ -1,0 +1,186 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="kinematics.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="stringEditor.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="glog\stl_logging.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="mathgl-2.4.2\include\mgl2\abstract.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="mathgl-2.4.2\include\mgl2\addon.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="mathgl-2.4.2\include\mgl2\base.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="mathgl-2.4.2\include\mgl2\base_cf.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="mathgl-2.4.2\include\mgl2\canvas.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="mathgl-2.4.2\include\mgl2\canvas_cf.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="mathgl-2.4.2\include\mgl2\canvas_wnd.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="mathgl-2.4.2\include\mgl2\cont.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="mathgl-2.4.2\include\mgl2\data.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="mathgl-2.4.2\include\mgl2\data_cf.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="mathgl-2.4.2\include\mgl2\datac.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="mathgl-2.4.2\include\mgl2\datac_cf.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="mathgl-2.4.2\include\mgl2\define.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="mathgl-2.4.2\include\mgl2\dllexport.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="mathgl-2.4.2\include\mgl2\eval.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="mathgl-2.4.2\include\mgl2\evalc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="mathgl-2.4.2\include\mgl2\fit.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="mathgl-2.4.2\include\mgl2\Fl_MathGL.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="mathgl-2.4.2\include\mgl2\fltk.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="mathgl-2.4.2\include\mgl2\font.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="mathgl-2.4.2\include\mgl2\glut.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="mathgl-2.4.2\include\mgl2\mgl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="mathgl-2.4.2\include\mgl2\mgl_cf.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="mathgl-2.4.2\include\mgl2\mpi.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="mathgl-2.4.2\include\mgl2\opengl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="mathgl-2.4.2\include\mgl2\other.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="mathgl-2.4.2\include\mgl2\parser.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="mathgl-2.4.2\include\mgl2\pde.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="mathgl-2.4.2\include\mgl2\plot.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="mathgl-2.4.2\include\mgl2\prim.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="mathgl-2.4.2\include\mgl2\qmathgl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="mathgl-2.4.2\include\mgl2\qt.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="mathgl-2.4.2\include\mgl2\surf.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="mathgl-2.4.2\include\mgl2\thread.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="mathgl-2.4.2\include\mgl2\type.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="mathgl-2.4.2\include\mgl2\vect.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="mathgl-2.4.2\include\mgl2\volume.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="mathgl-2.4.2\include\mgl2\window.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="mathgl-2.4.2\include\mgl2\wnd.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="mathgl-2.4.2\include\mgl2\wx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Definitions.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="maxonMotor.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="testingFuncs.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="FYP_test.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="maxonMotor.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="FYP_test.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="EposCmd64.dll" />
+    <None Include="mathgl-2.4.2\bin\libmgl.dll" />
+  </ItemGroup>
+</Project>
